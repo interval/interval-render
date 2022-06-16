@@ -2,7 +2,7 @@
 
 An example project with [Interval](https://interval.com) configured to run on [Render](https://render.com). Created with [create-interval-app](https://github.com/interval/create-interval-app).
 
-Click the button below to deploy this app to your Render account:
+Click the button below to deploy this app on Render:
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/interval/interval-render)
 
