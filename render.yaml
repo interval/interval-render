@@ -7,7 +7,7 @@ services:
     plan: starter
     branch: main
     numInstances: 1
-    buildCommand: yarn build
+    buildCommand: yarn && yarn build
     startCommand: yarn start
     envVars:
       - key: INTERVAL_KEY
