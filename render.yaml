@@ -7,6 +7,8 @@ services:
     plan: starter
     branch: main
     numInstances: 1
+    buildCommand: yarn build
+    startCommand: yarn start
     envVars:
       - key: INTERVAL_KEY
         sync: false # placeholder for a value to be added in the dashboard
