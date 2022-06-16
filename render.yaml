@@ -1,0 +1,12 @@
+services:
+  - type: worker
+    name: interval
+    env: node
+    repo: https://github.com/interval/interval-render
+    region: oregon
+    plan: starter
+    branch: main
+    numInstances: 1
+    envVars:
+      - key: INTERVAL_KEY
+        sync: false # placeholder for a value to be added in the dashboard
